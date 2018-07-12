@@ -1,0 +1,6 @@
+<div>
+  Rodzic - liczba: {{ num }}<br>
+  Rodzic - licznik: {{ parentCount }}
+  <tag-counter [count]="num" (result)="ngOnChange($event)">
+  </tag-counter>
+</div>
